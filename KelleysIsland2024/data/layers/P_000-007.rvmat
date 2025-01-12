@@ -1,0 +1,698 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0.02,0.02,0.02,1};
+emmisive[]={0,0,0,0};
+specular[]={0,0,0,0};
+specularPower=0;
+class Stage0
+{
+	texture="KelleysIsland2024\data\layers\s_000_007_lco.paa";
+	texGen=3;
+};
+class Stage1
+{
+	texture="KelleysIsland2024\data\layers\m_000_007_lca.paa";
+	texGen=4;
+};
+class TexGen3
+{
+	uvSource="worldPos";
+	class uvTransform
+	{
+		aside[]={0.001953125000,0,0};
+		up[]={0,0,0.001953125000};
+		dir[]={0,-0.001953125000,0};
+		pos[]={0.125000000000,10.875000000000,0};
+	};
+};
+class TexGen4
+{
+	uvSource="worldPos";
+	class uvTransform
+	{
+		aside[]={0.001953125000,0,0};
+		up[]={0,0,0.001953125000};
+		dir[]={0,-0.001953125000,0};
+		pos[]={0.125000000000,10.875000000000,0};
+	};
+};
+class TexGen0
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
+};
+class TexGen1
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={8.000000000000,0,0};
+		up[]={0,8.000000000000,0};
+		dir[]={0,0,8.000000000000};
+		pos[]={0,0,0};
+	};
+};
+class TexGen2
+{
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={8.000000000000,0,0};
+		up[]={0,8.000000000000,0};
+		dir[]={0,0,8.000000000000};
+		pos[]={0,0,0};
+	};
+};
+PixelShaderID="TerrainX";
+VertexShaderID="Terrain";
+class Stage2
+{
+	texture="#(rgb,1,1,1)color(0.5,0.5,0.5,1,cdt)";
+	texGen=0;
+};
+class Stage3
+{
+	texture="a3\map_data\gdt_grass_green_nopx.paa";
+	texGen=1;
+};
+class Stage4
+{
+	texture="a3\map_data\gdt_grass_green_co.paa";
+	texGen=2;
+};
+class Stage5
+{
+	texture="a3\map_data_exp\gdt_beach_nopx.paa";
+	texGen=1;
+};
+class Stage6
+{
+	texture="a3\map_data_exp\gdt_beach_co.paa";
+	texGen=2;
+};
+class Stage7
+{
+	texture="a3\map_data\gdt_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage8
+{
+	texture="a3\map_data\gdt_concrete_co.paa";
+	texGen=2;
+};
+class Stage9
+{
+	texture="a3\map_data_exp\gdt_beach_nopx.paa";
+	texGen=1;
+};
+class Stage10
+{
+	texture="a3\map_data_exp\gdt_beach_co.paa";
+	texGen=2;
+};
+class Stage11
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage12
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage13
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage14
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage15
+{
+	texture="a3\map_data_exp\gdt_beach_nopx.paa";
+	texGen=1;
+};
+class Stage16
+{
+	texture="a3\map_data_exp\gdt_beach_co.paa";
+	texGen=2;
+};
+class Stage17
+{
+	texture="a3\map_data_exp\gdt_beach_nopx.paa";
+	texGen=1;
+};
+class Stage18
+{
+	texture="a3\map_data_exp\gdt_beach_co.paa";
+	texGen=2;
+};
+class Stage19
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage20
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage21
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage22
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage23
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage24
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage25
+{
+	texture="a3\map_data\gdt_grass_green_nopx.paa";
+	texGen=1;
+};
+class Stage26
+{
+	texture="a3\map_data\gdt_grass_green_co.paa";
+	texGen=2;
+};
+class Stage27
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage28
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage29
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage30
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage31
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage32
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage33
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage34
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage35
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage36
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage37
+{
+	texture="a3\map_data\gdt_grass_green_nopx.paa";
+	texGen=1;
+};
+class Stage38
+{
+	texture="a3\map_data\gdt_grass_green_co.paa";
+	texGen=2;
+};
+class Stage39
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage40
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage41
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage42
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage43
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage44
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage45
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage46
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage47
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage48
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage49
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage50
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage51
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage52
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage53
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage54
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage55
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage56
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage57
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage58
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage59
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage60
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage61
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage62
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage63
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage64
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage65
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage66
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage67
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage68
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage69
+{
+	texture="a3\map_data\gdt_desert_nopx.paa";
+	texGen=1;
+};
+class Stage70
+{
+	texture="a3\map_data\gdt_desert_co.paa";
+	texGen=2;
+};
+class Stage71
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage72
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage73
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage74
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage75
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage76
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage77
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage78
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage79
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage80
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage81
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage82
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage83
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage84
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage85
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage86
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage87
+{
+	texture="z\arm\addons\centraleurope\data\gdt\arm_sand_centraleurope_nopx.paa";
+	texGen=1;
+};
+class Stage88
+{
+	texture="z\arm\addons\centraleurope\data\gdt\arm_sand_centraleurope_co.paa";
+	texGen=2;
+};
+class Stage89
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage90
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage91
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage92
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage93
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage94
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage95
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage96
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage97
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage98
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage99
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage100
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage101
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage102
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage103
+{
+	texture="a3\map_enoch\data\gdt_entarmac_nopx.paa";
+	texGen=1;
+};
+class Stage104
+{
+	texture="a3\map_enoch\data\gdt_entarmac_co.paa";
+	texGen=2;
+};
+class Stage105
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage106
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage107
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage108
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage109
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage110
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage111
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage112
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage113
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage114
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
+class Stage115
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage116
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage117
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage118
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage119
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage120
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage121
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage122
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage123
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_nopx.paa";
+	texGen=1;
+};
+class Stage124
+{
+	texture="z\arm\addons\common_v2\data\gdt\arm_concrete_co.paa";
+	texGen=2;
+};
+class Stage125
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_nopx.paa";
+	texGen=1;
+};
+class Stage126
+{
+	texture="a3\map_enoch\data\gdt_enweatheredtarmac_co.paa";
+	texGen=2;
+};
